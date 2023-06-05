@@ -1,11 +1,10 @@
 package main
 
 import (
-	"command-line-arguments/home/omar/projects/go/edteam/1_paquetes/greet/greet.go"
+	"github.com/valthern/paquetes_go/greet"
 	"fmt"
 )
 
 func main()  {
-	fmt.Println("Hello")
-	greet.English()
+	fmt.Println(greet.Italian())
 }

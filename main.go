@@ -7,7 +7,7 @@ import (
 )
 
 func main()  {
-	fmt.Println(greet.Italian())
+	fmt.Println(greet.Spanish())
 	fmt.Println(greet.Russian())
 	fmt.Println(quote.HelloV3())
 	fmt.Println(quote.Concurrency())
